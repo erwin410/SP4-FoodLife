@@ -8,36 +8,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
     integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" type="text/css" href="./CSS/home.css">
-    <link rel="stylesheet" href="./CSS/responsive.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="./CSS/header.css">
 </head>
 <body>
     <!-- Header Contenu -->
     <header>
-		<div class="container">
-			<div class="nav-bar flex">
-				<div class="first-holder flex">
-					<h1 class="logo">FoodLand</h1>
+	<header>
 
-					<a href="#" id="m-bar"><i class="fas fa-bars hm"></i></a>
-				</div>
+<nav>
+	<h2 class="logo">FoodLand</h2>
 
-				<div id="menu-links" class="hidden">
-					<ul>
-						<li><a href="#" class="active">Accueil</a></li>
-						<li><a href="#">Recette</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">About</a></li>
-					</ul>
-				</div>
+	<a href="#" id="m-bar"><i class="fas fa-bars"></i></a>
 
-				<a href="#" id="btn" class="hidden">Login</a>
+	<ul>
+		<li><a href="#">Accueil</a></li>
+		<li><a href="#">Recettes</a></li>
+		<li><a href="#">Blog</a></li>
+		<li><a href="#">Contact</a></li>
+		<li><a href="#">About</a></li>
+	</ul>
 
-			</div>
+	<div class="social-media">
+		<a href="#" class="hidden"><i class="fa fa-facebook"></i></a>
+		<a href="#" class="hidden"><i class="fa fa-twitter"></i></a>
+		<a href="#" class="hidden"><i class="fa fa-instagram"></i></a>
+	</div>
+</nav>
 
-		</div>
-	</header>
-    <script src="./script/script.js"></script>
+</header>
 </body>
 </html>
