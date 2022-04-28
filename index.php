@@ -13,29 +13,54 @@
 </head>
 <body>
     <!-- Header Contenu -->
-    <header>
+   
 	<header>
 
-<nav>
-	<h2 class="logo">FoodLand</h2>
+		<nav>
+				<h2 class="logo">FoodLand</h2>
 
-	<a href="#" id="m-bar"><i class="fas fa-bars"></i></a>
+				<a href="#" id="m-bar"><i class="fas fa-bars"></i></a>
 
-	<ul>
-		<li><a href="#">Accueil</a></li>
-		<li><a href="#">Recettes</a></li>
-		<li><a href="#">Blog</a></li>
-		<li><a href="#">Contact</a></li>
-		<li><a href="#">About</a></li>
-	</ul>
+				<ul>
+					<li><a href="#">Accueil</a></li>
+					<li><a href="#">Recettes</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
 
-	<div class="social-media">
-		<a href="#" class="hidden"><i class="fa fa-facebook"></i></a>
-		<a href="#" class="hidden"><i class="fa fa-twitter"></i></a>
-		<a href="#" class="hidden"><i class="fa fa-instagram"></i></a>
-	</div>
-</nav>
+				<div class="social-media">
+					<a href="#" class="hidden"><i class="fa fa-facebook"></i></a>
+					<a href="#" class="hidden"><i class="fa fa-twitter"></i></a>
+					<a href="#" class="hidden"><i class="fa fa-instagram"></i></a>
+				</div>
+		</nav>
 
-</header>
+	</header>
+
+
+	<!-- Banner Home Section -->
+	<section class="banner">
+		
+	</section>
+
+	
+	
+	<!-- Category Section -->
+	<section class="category">
+		<div class="category-heading">
+			<h2>Catégories</h2>
+			<button>view all categorie</button>
+		</div>
+		<div class="category-content">
+			<a href="#" class="category-box"></a>
+		</div>
+
+		<div class="category-content">
+			<a href="#" class="category-box"></a>
+		</div>
+
+
+	</section>
 </body>
 </html>
