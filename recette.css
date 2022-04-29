@@ -1,0 +1,28 @@
+body{
+
+}
+
+.bloc1{
+    background-color: blue;
+}
+
+.titre{
+
+}
+
+.info-recette{
+    display: flex;
+    align-items: center;
+}
+
+.avatar img{
+    width: 50px;
+    height: auto;
+    border-radius: 150px;
+
+}
+
+.name_date{
+    line-height: 0px;
+    text-size-adjust: 10px;
+}
