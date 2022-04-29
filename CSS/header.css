@@ -33,6 +33,11 @@ nav{
     font-size: 28px;
 }
 
+.logo span{
+    color: red;
+    font-size: 28px;
+}
+
 #m-bar{
     display: none;
     font-size: 20px;
@@ -60,7 +65,7 @@ nav ul li a:hover{
 .social-media a{
     display: inline-block;
     justify-content: space-between;
-    padding: 10px 15px;
+    padding: 20px 15px;
     text-decoration: none;
     color: #000;
     font-size: 20px;
@@ -70,22 +75,47 @@ nav ul li a:hover{
 
 /* ------ banner ------- */
 .banner{
-    max-width: 1250px;
+    width: 1005px;
     height: 500px;
-    border-radius: 30px;
-    background-color: #E7FAFE;
-    margin: 10px auto;
+    border-radius: 15px;
+    margin:  10px auto;
     margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
+}
+
+.right{
+    width: 50%;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.right img{
+    position: absolute;
+    height: 500px;
+    overflow: hidden;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.left{
+    background-color: #E7FAFE; 
+    width: 50%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
 
 
 /* ------- category ------ */
-.category{
+#category{
     display: flex;
     flex-direction: column;
     max-width: 1000px;
-    margin: 50px auto;
+    margin: 90px auto;
 }
 
 .category-heading{
@@ -123,6 +153,7 @@ nav ul li a:hover{
     margin-top: 40px;
 }
 
+/* --- Box Category 1 --- */
 .category-box{
     display: flex;
     flex-direction: column;
@@ -134,3 +165,171 @@ nav ul li a:hover{
     width: 120px;
 }
 
+a{
+    text-decoration: none;
+}
+.category-box img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.category-box h2{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+}
+
+/* --- Box Category 2 --- */
+.category-box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
+    border-radius: 10px;
+    min-height: 130px;
+    width: 120px;
+}
+
+a{
+    text-decoration: none;
+}
+.category-box2 img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.category-box2 h2{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+}
+
+/* --- Box Category 3 --- */
+.category-box3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
+    border-radius: 10px;
+    min-height: 130px;
+    width: 120px;
+}
+
+a{
+    text-decoration: none;
+}
+.category-box3 img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.category-box3 h2{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+}
+
+/* --- Box Category 4 --- */
+.category-box4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
+    border-radius: 10px;
+    min-height: 130px;
+    width: 120px;
+}
+
+a{
+    text-decoration: none;
+}
+.category-box4 img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.category-box4 h2{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+}
+
+/* --- Box Category 5 --- */
+.category-box5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+    border-radius: 10px;
+    min-height: 130px;
+    width: 120px;
+}
+
+a{
+    text-decoration: none;
+}
+.category-box5 img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.category-box5 h2{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+}
+
+
+/* ---- Box Category 6 ---- */
+.category-box6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+    border-radius: 10px;
+    min-height: 130px;
+    width: 120px;
+}
+
+a{
+    text-decoration: none;
+}
+.category-box6 img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.category-box6 h2{
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+}

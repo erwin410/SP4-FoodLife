@@ -17,7 +17,7 @@
 	<header>
 
 		<nav>
-				<h2 class="logo">FoodLand</h2>
+				<h2 class="logo">FoodLand<span>.</span></h2>
 
 				<a href="#" id="m-bar"><i class="fas fa-bars"></i></a>
 
@@ -40,27 +40,50 @@
 
 
 	<!-- Banner Home Section -->
-	<section class="banner">
-		
-	</section>
+	<div class="banner">
+		<div class="left"></div>
+		<div class="right">
+			<img src="./IMAGES/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png" alt="">
+		</div>
+</div>
 
 	
 	
 	<!-- Category Section -->
-	<section class="category">
+	<section id="category">
 		<div class="category-heading">
 			<h2>Catégories</h2>
 			<button>view all categorie</button>
 		</div>
 		<div class="category-content">
-			<a href="#" class="category-box"></a>
+			<a href="#" class="category-box">
+				<img src="./IMAGES/breakfast.png" alt="breakfast">
+				<h2>Breakfast</h2>
+			</a>
+
+			<a href="#" class="category-box2">
+				<img src="./IMAGES/vegan.png" alt="breakfast">
+				<h2>Vegan</h2>
+			</a>
+			<a href="#" class="category-box3">
+				<img src="./IMAGES/meat.png" alt="breakfast">
+				<h2>Meat</h2>
+			</a>
+			<a href="#" class="category-box4">
+				<img src="./IMAGES/dessert.png" alt="breakfast">
+				<h2>Desert</h2>
+			</a>
+			<a href="#" class="category-box5">
+				<img src="./IMAGES/lunch.png" alt="breakfast">
+				<h2>Lunch</h2>
+			</a>
+			<a href="#" class="category-box6">
+				<img src="./IMAGES/chocolate.png" alt="breakfast">
+				<h2>Chocolate</h2>
+			</a>
 		</div>
 
-		<div class="category-content">
-			<a href="#" class="category-box"></a>
-		</div>
-
-
+		
 	</section>
 </body>
 </html>
