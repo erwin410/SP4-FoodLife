@@ -1,28 +1,602 @@
-body{
-
+body {
+  margin-left: 80px;
 }
 
-.bloc1{
-    background-color: blue;
+.separation_vertical {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  height: 40px;
 }
 
-.titre{
-
+.bloc1 {
+  display: flex;
+  justify-content: space-between;
+  max-width: 630px;
 }
 
-.info-recette{
-    display: flex;
-    align-items: center;
+.titre {
 }
 
-.avatar img{
-    width: 50px;
-    height: auto;
-    border-radius: 150px;
+.titre h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.04em;
 
+  color: #000000;
 }
 
-.name_date{
-    line-height: 0px;
-    text-size-adjust: 10px;
+/* Partie info-recette ------------------------*/
+.info-recette {
+  display: flex;
+  align-items: center;
+}
+
+.info-utilisateur {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  margin-right: 10px;
+}
+
+.avatar img {
+  width: 50px;
+  height: auto;
+  border-radius: 150px;
+}
+
+.name_date {
+}
+
+.name_date .nom {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.name_date .date {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  letter-spacing: -0.02em;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* partie time preparation -------------------- */
+
+.time_prep {
+  display: flex;
+  align-items: center;
+}
+
+.logo_time {
+  margin-right: 10px;
+}
+
+.time {
+}
+
+.time .texte_preparation {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.time .preparation_minutes {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  letter-spacing: -0.02em;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* partie temps de cuisson 
+le logo_time est gerer dans la partie du dessus*/
+
+.time_cook {
+  display: flex;
+  align-items: center;
+}
+
+.time .texte_cook {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+
+.time .cook_minutes {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  letter-spacing: -0.02em;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* partie categorie */
+
+.info_category {
+  display: flex;
+  align-items: center;
+}
+
+.logo_category {
+  margin-right: 10px;
+}
+
+.category p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  letter-spacing: -0.02em;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* ------------------------------- */
+
+.bloc2 {
+  margin-top: 51px;
+  display: flex;
+}
+
+/* partie 1er card */
+
+.first_card img {
+  width: 840px;
+  height: 600px;
+  left: 80px;
+  top: 429px;
+
+  background: #c4c4c4;
+  border-radius: 30px;
+}
+
+/* partie 2nd cards */
+
+.second_card {
+  margin-left: 30.33px;
+  width: 400px;
+  height: 600px;
+  left: 960px;
+  top: 429px;
+
+  background: #e7fafe;
+  border-radius: 30px;
+}
+
+.nutrition_titre {
+  margin-top: 32px;
+  margin-left: 32px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 29px;
+
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.list_nutrition {
+  margin-top: -10px;
+}
+
+.list_nutrition .calories {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.list_nutrition .calories p .texte {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: -0.04em;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.list_nutrition .calories p .texte2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: right;
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.separation_horizontal {
+  margin-left: 32px;
+  width: 327px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.list_nutrition .total_fat {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.list_nutrition .total_fat p .texte {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: -0.04em;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.list_nutrition .total_fat p .texte2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: right;
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.separation_horizontal {
+  margin-left: 32px;
+  width: 327px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.list_nutrition .proteine {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.list_nutrition .proteine p .texte {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: -0.04em;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.list_nutrition .proteine p .texte2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: right;
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.separation_horizontal {
+  margin-left: 32px;
+  width: 327px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.list_nutrition .carbohydrate {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.list_nutrition .carbohydrate p .texte {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: -0.04em;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.list_nutrition .carbohydrate p .texte2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: right;
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.separation_horizontal {
+  margin-left: 32px;
+  width: 327px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.list_nutrition .cholesterol {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.list_nutrition .cholesterol p .texte {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: -0.04em;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.list_nutrition .cholesterol p .texte2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-align: right;
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.separation_horizontal {
+  margin-left: 32px;
+  width: 327px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.texte_nutrition {
+  width: 315px;
+  display: flex;
+  height: 250px;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-left: 35px;
+  margin-right: 32px;
+}
+
+.texte_nutrition p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* -------------------------------- */
+
+.bloc3 {
+  margin-top: 67px;
+}
+
+.bloc3 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* ------------------------------------------ */
+
+.parent {
+  display: grid;
+  gap: 0px;
+  height: 100%;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 100%;
+}
+
+.div1 {
+  /* background-color: red; */
+  grid-area: auto;
+}
+
+.ingredient {
+  margin-top: 60px;
+}
+
+.ingredient h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.ingredient_recette {
+  margin-top: 40px;
+}
+
+.ingredient_recette h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.list_ingredients_recettes {
+}
+
+.list_ingredient {
+  margin-top: 33px;
+  margin-bottom: 33px;
+}
+
+.list_ingredient label {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: -0.02em;
+
+  color: #000000;
+}
+
+.separation_horizontal_bloc4 {
+  width: 840px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.ingredient_sauce {
+  margin-top: 60px;
+}
+
+.ingredient_sauce h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.div2 {
+  background-color: blue;
+}
+
+.other_recipe {
+  margin-top: 60px;
+}
+
+.other_recipe p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.list_other_recipe {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.photoRecette img {
+  width: 180px;
+  height: 120px;
+
+  background: #c4c4c4;
+  border-radius: 20px;
+}
+
+.titre_author {
+  margin-left: 24px;
+}
+
+.titre_recette p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+
+  letter-spacing: -0.04em;
+
+  color: #000000;
+}
+
+.titre_author .author p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  letter-spacing: -0.02em;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.ads img {
+  width: 400px;
+  height: 434px;
 }
